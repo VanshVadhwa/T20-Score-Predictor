@@ -1,0 +1,15 @@
+web:
+  port: 8501
+
+app: app.py
+
+packages:
+  - pandas
+  - numpy
+  - scikit-learn
+  - streamlit
+  - xgboost
+
+commands:
+  predeploy: []
+  postdeploy: []
